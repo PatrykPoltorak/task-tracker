@@ -9,6 +9,18 @@ public class Task {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
+
+    public Task(int id, String description, Status status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.id = id;
+        this.description = description;
+        this.status = status;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+
+    public Task() {
+    }
+
     public Task(int id, String description) {
         this.id = id;
         this.description = description;
@@ -56,12 +68,12 @@ public class Task {
 
     @Override
     public String toString() {
-        return "{\n" +
-                "  \"id\": \"" + id + "\",\n" +
-                "  \"description\": \"" + description + "\",\n" +
-                "  \"status\": \"" + status + "\",\n" +
-                "  \"createdAt\": \"" + createdAt + "\",\n" +
-                "  \"updatedAt\": \"" + updatedAt + "\"\n" +
+        return "{\n"+
+                " \"id\":\"" + this.getId() + "\",\n" +
+                " \"description\":\"" + this.getDescription() + "\",\n" +
+                " \"status\":\"" + this.getStatus().toString() + "\",\n" +
+                " \"createdAt\":\"" + this.getCreatedAt() + "\",\n" +
+                " \"updatedAt\":\"" + this.getUpdatedAt() + "\n" +
                 "}";
     }
 }

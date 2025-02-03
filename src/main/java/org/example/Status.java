@@ -2,7 +2,7 @@ package org.example;
 
 public enum Status {
     TODO("Todo"),
-    IN_PROGRESS("In progress"),
+    IN_PROGRESS("In_progress"),
     DONE("Done");
 
     private final String value;
