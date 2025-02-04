@@ -9,22 +9,23 @@ Task-tacker is a simple comand-line interface aplication written in java for man
 -**List tasks by status:** View tasks with selected status.
 
 ## Run app with arguments
--*Adding a new task
+-**Add tasks:**Adding a new task
 task-cli add "Buy groceries"
  Output: Task added successfully (ID: 1)
 
- Updating and deleting tasks
+-**Update task:**
 task-cli update 1 "Buy groceries and cook dinner"
+-**Delete task:**
 task-cli delete 1
 
- Marking a task as in progress or done
+-**Mark a task:** Marking a task as in progress or done
 task-cli mark-in-progress 1
 task-cli mark-done 1
 
- Listing all tasks
+-**List all tasks:** 
 task-cli list
 
- Listing tasks by status
+-**List tasks by status:**
 task-cli list done
 task-cli list todo
 task-cli list in-progress
