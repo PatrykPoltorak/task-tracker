@@ -10,23 +10,23 @@ Task-tacker is a simple comand-line interface aplication written in java for man
 
 ## Run app with arguments
 -**Add tasks:** Adding a new task
-task-cli add "Buy groceries"
- Output: Task added successfully (ID: 1)
+task-tracker add "Buy groceries"
+Output: Task added successfully (ID: 1)
 
 -**Update task:**
-task-cli update 1 "Buy groceries and cook dinner"
+task-tracker update 1 "Buy groceries and cook dinner"
 -**Delete task:**
-task-cli delete 1
+task-tracker delete 1
 
 -**Mark a task inprogres:** 
-task-cli mark-in-progress 1
+task-tracker mark-in-progress 1
 -**Mark a task done:** 
-task-cli mark-done 1
+task-tracker mark-done 1
 
 -**List all tasks:** 
-task-cli list
+task-tracker list
 
 -**List tasks by status:**
-task-cli list done
-task-cli list todo
-task-cli list in-progress
+task-tracker list done
+task-tracker list todo
+task-tracker list in-progress
