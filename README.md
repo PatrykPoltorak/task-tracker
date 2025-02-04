@@ -9,7 +9,7 @@ Task-tacker is a simple comand-line interface aplication written in java for man
 -**List tasks by status:** View tasks with selected status.
 
 ## Run app with arguments
- Adding a new task
+-*Adding a new task
 task-cli add "Buy groceries"
  Output: Task added successfully (ID: 1)
 
